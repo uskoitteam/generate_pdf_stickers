@@ -53,7 +53,6 @@ def generate_pdf(names, output_file):
 
         # Add a new page for the next name
         c.showPage()
-
     # Save the PDF
     c.save()
 
